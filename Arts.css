@@ -1,0 +1,199 @@
+@charset "utf-8";
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+p, ul li {
+    color:#fff;
+    font-weight: 400;}
+h3, h2 {
+    color: #fff;}
+h3, h2, #banner1 h1, .formbuilder-form .row label, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    text-transform: uppercase;}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+.btn{
+    /*background-color: #dcd0c0;*/
+    background: rgb(47, 138, 219); 
+    background: rgba(47, 138, 219, 0.5);
+    color: #fff;
+    transition: 0.2s 0.2s ease-out;
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    background-color: #0a77d6;
+    color: #fff;
+    transform: scale(1.2);
+}
+ #tb,#eb{ 
+    text-shadow: none;
+    width: 35%;
+    font-size: 20px;
+    padding: 13px 5px 13px 5px; 
+ }
+#header2, #header2a a , #header2b a, .btn ,input#submit-form, #submit-form, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form,footer a {text-decoration: none;}
+/*----------------------------------------------------------------
+    Forms
+----------------------------------------------------------------*/
+ .form, #contact_form_form, #quote_form_form, #extraFormsContainer .modal-dialog{
+    background-color: #c0b283;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
+}
+.formbuilder-form .row label, div.formbuilder-wrapper label {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #373737;
+    margin-bottom: 8px;
+}
+.formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form{
+    background: #373737;
+    color: #dcd0c0;
+}
+.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    background-color: #dcd0c0;
+    color: #373737;
+}
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+header {
+    padding: 0px 0 0px 0;}
+header a, header span, #header2a a, #header2a:before, #header2a, #header2b a,#services p  {
+    color: #fff;}
+#header2a a {
+    line-height: 48px;}
+#header2a {
+    font-size: 35px;}
+#header2a:before {
+    font-size: 30px;
+    line-height: 35px;}
+#header2b a {
+    font-size:26px;}
+#header1 p {
+    padding-top: 25px;}
+#header2 {
+    padding-bottom: 5px;}
+
+/*----------------------------------------------------------------
+    Banner 
+----------------------------------------------------------------*/
+#banner1 h1 {
+    color: #fff;
+    font-weight: 900;}
+ #banner1 p {
+    color: #fff;}
+#banner1 h1 {
+    font-size: 50px;}
+.banner_cover {
+    opacity: 0.5;
+    background-color: #000}
+#banner1 {
+    animation:move 2s ease;}
+@-webkit-keyframes move {
+  from {transform: scale(0.8);opacity:0;}
+  to {transform: scale(1.0);opacity:1;}
+}
+
+/*----------------------------------------------------------------
+    Services & Content
+----------------------------------------------------------------*/
+#services {
+    border-top: 10px solid rgb(103, 103, 103);}
+#services h3 {
+    color: #0a77d6;}
+#services p {
+    color: #000;}
+#services h3:hover{
+    transform: scale(1.1);}
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.2);}
+/*----------------------------------------------------------------
+    Gallery
+----------------------------------------------------------------*/
+#contact .img-responsive{
+    transition: 0.2s 0.2s ease-out;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.17);}
+#contact .img-responsive:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.17);}
+#gallery .img-responsive{
+    transition: 0.2s 0.2s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 10px 0 rgba(0, 0, 0, 0.19);}
+#gallery .img-responsive:hover{
+    opacity: 0.5;
+    transform: scale(1.0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 10px 0 rgba(0, 0, 0, 0.19);}
+#gallery img {
+    width:100%;}
+#gallery1 p, #gallery, #gallery .container {
+   padding: 0;
+   margin-bottom :0;
+   width: 100%;}
+#gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+    -webkit-box-flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin:0;
+    padding:0;}
+@media only screen and (min-width: 767px){
+#gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+        -webkit-box-flex: 0 0 33.333%;
+        -webkit-flex: 0 0 33.333%;
+        -ms-flex: 0 0 33.333%;
+        flex:  0 0 33.333%;
+        max-width: 33.333%;
+        margin-bottom: 0px;}
+}
+/*----------------------------------------------------------------
+    Contact
+----------------------------------------------------------------*/
+#contact p, #contact h2, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;color: #fff;}
+#content2b, #contact2f, #contact2g, #contact2c, #contact2e, #contact2d{
+    display: none;}
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer a, footer * {color: #0a77d6;}
+footer {
+    background-color: #f4f4f4;
+    color: #0a77d6;}
+footer a {font-weight: 500;}
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (max-width: 690px) {
+    #banner h1 {font-size: 50px;}}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #header {
+        padding: 15px 0 10px 0;}
+    #header1, #header2a, #header1 p, #header2 {
+        padding-top: 3px;}
+    #header2a {
+        line-height: 0px;}
+    #header2b {
+        line-height: 33px;
+        padding-bottom: 3px;}
+    #header2 {
+        padding-bottom: 0px;}
+    #services {
+        padding: 80px 0 60px 0;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{
+        transform: scale(1.0);}
+    #banner1, #banner h1 {
+        text-align: center;}
+}
+@media (max-width: 767px) {#service3 {clear:left }}
+@media (max-width: 710px) {
+    #tb,#eb{
+        width:100%;
+        word-wrap: break-word;}}
+@media (min-width: 0px) {
+    #tb, #eb {
+        margin-top: 10px;}}
